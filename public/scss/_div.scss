@@ -12,10 +12,21 @@ div{
     justify-content: center;
 }
 
+#result{
+    margin-top: 20px;
+    width: auto;
+    text-align: start;
+}
+
 @media screen and (max-width: 560px) {
     #get-ip-div{
         display: flex; 
         flex-direction: column-reverse;
         align-items: center; 
+    }
+
+    #result{
+        width: auto;
+       
     }
 }
