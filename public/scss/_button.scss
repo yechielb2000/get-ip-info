@@ -1,0 +1,13 @@
+button{
+    border-radius: 10px;
+    padding: $padding;
+    color: $text-bg;
+    transition: 0.5s;
+    border: $border-color solid 2px;
+
+    &:hover{
+        border-radius: 30px;  
+        color: $bg;  
+        background-color: $highlight-bg;
+    }
+}

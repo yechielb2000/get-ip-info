@@ -1,0 +1,10 @@
+#logo{
+    position: absolute;
+    display: block;
+}
+
+@media screen and (max-width: 560px) {
+    #logo{
+        display: none;
+    }
+}

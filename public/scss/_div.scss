@@ -1,0 +1,21 @@
+div{
+    background-color: $dark-bg;
+    border: $border-color solid 2px;
+    padding: $padding;
+}
+
+#get-ip-div{
+    width: auto;
+    height: auto;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+@media screen and (max-width: 560px) {
+    #get-ip-div{
+        display: flex; 
+        flex-direction: column-reverse;
+        align-items: center; 
+    }
+}

@@ -1,0 +1,12 @@
+body{
+    background-color: $bg;
+    color: $text-bg;
+    padding: $padding;
+
+    //disable select text
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none; 
+    user-select:none;
+    -o-user-select:none;
+}
